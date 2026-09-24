@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-asheville",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "City of Asheville GIS — Asheville, North Carolina open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-asheville": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-asheville"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-asheville"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-asheville.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-dada3b849d817054b3ae99ce1968fa785f4c3e7f33dce4d4c0edbeef782571ef",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
