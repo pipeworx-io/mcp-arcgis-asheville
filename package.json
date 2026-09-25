@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-asheville",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "City of Asheville GIS — Asheville, North Carolina open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-dada3b849d817054b3ae99ce1968fa785f4c3e7f33dce4d4c0edbeef782571ef",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-50f5bdce07c4061719741cc82d0720fa86e25e32067c15ee3df3fda7e6cbb3f0",
+    "sourceCommit": "dca20ba6e13a9aa1c9f2918fc2ddaffe4cc30e5c"
   }
 }
